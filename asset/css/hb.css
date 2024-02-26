@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
 
 *,
 *:before,
@@ -6,15 +6,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Pixelify Sans', 'Titillium Web', sans-serif;
+  font-family: "Pixelify Sans", "Titillium Web", sans-serif;
 }
 
 #hbDiv {
-    width: 100%;
-    height: 400px;
-    position: relative;
-    display: flex;
-    flex-direction: row;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
 }
 
 #hbTitle {
@@ -35,7 +35,8 @@
   transform-style: preserve-3d;
   display: flex;
   align-items: center;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .planetImg {
@@ -47,7 +48,8 @@
 h3 {
   color: white;
   letter-spacing: 2px;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .planet {
@@ -56,7 +58,6 @@ h3 {
   position: absolute;
   cursor: pointer;
 }
-
 
 /*.background-text {
   width: 100%;
@@ -69,16 +70,16 @@ h3 {
 }
 */
 .description {
-
   position: absolute;
-  top:30%;
+  top: 30%;
   right: 3%;
-  
+
   background-color: rgba(255, 255, 255, 0.3);
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   font-size: 20px;
   border-radius: 20px;
   width: 500px;
-padding: 12px;
+  padding: 12px;
   color: white;
 }

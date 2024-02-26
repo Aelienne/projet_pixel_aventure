@@ -1,150 +1,141 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
 
 body {
-
-   /* cursor: url("/asset/img/profil/images/Curseur_Souris.png"), auto; */
-    font-family: 'Pixelify Sans', sans-serif;
-    margin: 0;
-    padding: 0;
+  /* cursor: url("../img/profil/images/Curseur_Souris.png"), auto; */
+  font-family: "Pixelify Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 #profilDiv {
-    height:700px;
-    position: relative;
+  height: 700px;
+  position: relative;
 }
 .divpage {
-    background-image: url("/asset/img/profil/images/backgroundStars.png");
-    height: 100vh;
-    width: 100VW;
-    justify-content: center;
-
+  background-image: url("../img/profil/images/backgroundStars.png");
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
 }
 
 .table_des_profiles {
-    height: 100vh;
-    /* width: 100VW; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    
+  height: 100vh;
+  /* width: 100VW; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .profile:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 50px rgba(255, 255, 255, 1.0);
+  transform: scale(1.05);
+  box-shadow: 0 0 50px rgba(255, 255, 255, 1);
 
-
-    /*font-size: x-large;*/
-    /*border-radius: 80px;*/
-    /*text-align: center;*/
+  /*font-size: x-large;*/
+  /*border-radius: 80px;*/
+  /*text-align: center;*/
 }
 
 .profile {
-    margin: 15px;
-    margin-top: 10vh;
-    border-radius: 8px;
-    /* position: relative;*/
-    overflow: hidden;
-    transition: all 0.5s;
-    background-color: #dddddd;
-    /*border: 2px solid #9e5879;*/
+  margin: 15px;
+  margin-top: 10vh;
+  border-radius: 8px;
+  /* position: relative;*/
+  overflow: hidden;
+  transition: all 0.5s;
+  background-color: #dddddd;
+  /*border: 2px solid #9e5879;*/
 
-    width: 10vw;
-    height: 35vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    color: black;
+  width: 10vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: black;
 
-    /* font-size: medium;*/
+  /* font-size: medium;*/
 }
 
 /* POPUP */
-.popupclass_ {   
-    /*border: 5px solid greenyellow;*/
-    width: 100vw;
-    height: 100vh;
-      
-    position: absolute;
-    top: 5%;
-    display: none;
-    /*
+.popupclass_ {
+  /*border: 5px solid greenyellow;*/
+  width: 100vw;
+  height: 100vh;
+
+  position: absolute;
+  top: 5%;
+  display: none;
+  /*
     align-items: center;
     justify-content: center;
     align-content: center;*/
-        
-   /* margin-top: 5%;
-    margin-left: 10%;*/
-    font-size: small;
-    z-index: 1;
 
+  /* margin-top: 5%;
+    margin-left: 10%;*/
+  font-size: small;
+  z-index: 1;
 }
 
 #id_popup .container_popup {
-   /* border: 2px solid brown; */
-    width: 100%;
-    height: 100%; 
-     
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;   
-    align-items: center; 
+  /* border: 2px solid brown; */
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 #id_popup .container_profil {
-    box-shadow: 0px 0px 100px 50px rgba(31, 30, 30, 1);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
-    border: 1px solid black;    
-    background-color: #dddddd;
-    border-radius: 20px;
-    color: black;
-    height: min-content;
-    width: 80%;
-
-     
-
-    
+  box-shadow: 0px 0px 100px 50px rgba(31, 30, 30, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  border: 1px solid black;
+  background-color: #dddddd;
+  border-radius: 20px;
+  color: black;
+  height: min-content;
+  width: 80%;
 }
 
 #id_popup .infos-fiche-profil {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    /* border: 2px solid orange ;*/
-    width: 70%;
-    height: 100%;
-    margin: 1px;
-    padding: 2px;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  /* border: 2px solid orange ;*/
+  width: 70%;
+  height: 100%;
+  margin: 1px;
+  padding: 2px;
+  text-align: left;
 }
 
 #id_popup .header-profil-info {
-    /*border: 1px solid blue;*/
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: start;
+  /*border: 1px solid blue;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: start;
 }
 
 #id_popup .image-nom-fiche-profil {
-    /* border: 2px solid blue;*/
-    text-align: center;
-    width: 15%;
-    /* height: 30%;*/
-    padding: 5px;
+  /* border: 2px solid blue;*/
+  text-align: center;
+  width: 15%;
+  /* height: 30%;*/
+  padding: 5px;
 }
 
 #id_popup .imageProfile {
-    width: 10vw;
-    height: 25vh;
+  width: 10vw;
+  height: 25vh;
 }
 
 /*
@@ -152,185 +143,174 @@ body {
     font-size: m;
 }*/
 
-
-
 #id_popup #description {
-    width: 95%;
-    padding: 5px;
-    /*font-size: large;*/
+  width: 95%;
+  padding: 5px;
+  /*font-size: large;*/
 }
 
 .zodiac-fiche-profil {
-    /* border: 1px solid blue;*/
-    width: 25%;
-    height: 100%;
+  /* border: 1px solid blue;*/
+  width: 25%;
+  height: 100%;
 }
 
 .zodiac-fiche-profil img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 #id_popup .body-social-cv-portfolio {
-    width: 100%;
-    background-color: gray;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    align-content: space-between;
-    border-radius: 0px 0px 20px 20px;
-    padding: 5px;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-between;
+  border-radius: 0px 0px 20px 20px;
+  padding: 5px;
 }
 
 #id_popup .profil-hobbies {
-    padding: 5px;
-    text-align: left;
+  padding: 5px;
+  text-align: left;
 }
 
-
 #id_popup .body-profil-expertises {
-    /*border: 1px solid #322599;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: left;
-    padding: 5px;
-
+  /*border: 1px solid #322599;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  padding: 5px;
 }
 
 .div-hardskills {
-    font-size: small;
-    text-align: left;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  font-size: small;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 #id_popup .profil-softskills {
-    /*border: 2px solid brown;*/
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: start;
-    align-content: space-evenly;
+  /*border: 2px solid brown;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: space-evenly;
 }
 
 #id_popup .checkSoftSkills {
-    width: 20px;
-    height: 20px;
-
+  width: 20px;
+  height: 20px;
 }
 
 #id_popup .Div-softskills {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    color: brown;
-    margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  color: brown;
+  margin: 10px;
 }
 
 #id_popup #softskills {
-    text-align: left;
-    /*font-size: large;*/
+  text-align: left;
+  /*font-size: large;*/
 }
 
 #id_popup .hardskills {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 
 #id_popup .imageHardskills {
-    width: 50%;
+  width: 50%;
 }
 
 /************BOUTONS ****************************/
 #id_popup .close:hover {
-    color: brown;
+  color: brown;
 }
 
 #id_popup .close {
-    position: absolute;
-    color: black;
-    font-size: 50px;
-    font-weight: bold;
-    cursor: pointer;
-    right: 10vw;
+  position: absolute;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  right: 10vw;
 }
 
 #id_popup .prev-profile-btn:hover {
-    cursor: pointer;
-    /*background-color: rgb(165, 165, 238);*/
-    color: red;
+  cursor: pointer;
+  /*background-color: rgb(165, 165, 238);*/
+  color: red;
 }
 
 #id_popup .prev-profile-btn {
-   /* position: relative;*/
-    /*border: 2px solid white;*/
-    /* background-color: rgb(1, 1, 10); */
-    color: rgb(124, 26, 124);
-    width: 5vw;
-    height: 50vh;
-    font-size: 50px;
-    line-height: 50vh;
-    text-align: center;
-    
-
+  /* position: relative;*/
+  /*border: 2px solid white;*/
+  /* background-color: rgb(1, 1, 10); */
+  color: rgb(124, 26, 124);
+  width: 5vw;
+  height: 50vh;
+  font-size: 50px;
+  line-height: 50vh;
+  text-align: center;
 }
 
 #id_popup .prev-next-profile-btn:hover {
-    cursor: pointer;
-    /*background-color: rgb(165, 165, 238);*/
-    color: red;
+  cursor: pointer;
+  /*background-color: rgb(165, 165, 238);*/
+  color: red;
 }
 
 #id_popup .next-profile-btn {
-    /*position: relative;*/
-    /*border: 2px solid white;*/
-   /* background-color: rgb(1, 1, 10);*/
-    color: rgb(124, 26, 124);
-    width: 5vw;
-    height: 50vh;
-    font-size: 50px;
-    line-height: 50vh;
-    text-align: center;
-    
-
+  /*position: relative;*/
+  /*border: 2px solid white;*/
+  /* background-color: rgb(1, 1, 10);*/
+  color: rgb(124, 26, 124);
+  width: 5vw;
+  height: 50vh;
+  font-size: 50px;
+  line-height: 50vh;
+  text-align: center;
 }
 /* Class des images*/
 image_logo_expertise {
-    width: 5vw;
-    height: 5vh;
-
+  width: 5vw;
+  height: 5vh;
 }
 
 .image_logo {
-    cursor: pointer;
-    border-radius: 15%;
-    width: 5%;
-    height: 5%;
+  cursor: pointer;
+  border-radius: 15%;
+  width: 5%;
+  height: 5%;
 }
 
 .image {
-    width: 100%;
-    height: 95%;
+  width: 100%;
+  height: 95%;
 }
 /* HOBBIES*/
 .div-hobbies {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: left;
-    margin: 5px;
-    /* border-radius: 20px 20px 20px 20px;*/
-
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: left;
+  margin: 5px;
+  /* border-radius: 20px 20px 20px 20px;*/
 }
 
 .hobbies {
-    text-align: left;
+  text-align: left;
 }
