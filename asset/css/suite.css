@@ -1,0 +1,101 @@
+#suiteDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+
+.history {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 35px;
+}
+
+.studies,
+.pro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.studiesTitle h3,
+.proTitle h3{
+    font-size: 40px;
+    margin: 25px
+}
+
+.studiesTitle {
+    display: flex;
+    justify-content: center;
+    transform: translateX(-4%);
+    flex-direction: row;
+}
+
+ #studTitImg,
+ #proTitImg {
+    max-width: 20%;
+    height: auto;
+ }
+  
+.asteroid,
+.satellite {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 35px;
+
+}
+
+.even {
+    justify-content: flex-end;
+}
+
+.asteroid img {
+    width: 10%;
+}
+
+.asteroidText {
+    background-color: rgba(255, 255, 255, 0.3);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+}
+
+.satelliteText {
+    background-color: rgba(255, 255, 255, 0.3);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+}
+
+
+.proTitle {
+    display: flex;
+    justify-content: center;
+    transform: translateX(-4%);
+    flex-direction: row;
+}
+
+.satellite img {
+    width: 10%;
+}
+
+.pro p {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 8px;
+}

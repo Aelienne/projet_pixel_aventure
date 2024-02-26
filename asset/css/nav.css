@@ -1,0 +1,75 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Pixelify Sans";
+}
+
+nav a img {
+    width: 50px;
+    height: 50px;
+}
+
+/*nav a:hover img {
+    content: url(../img/menu_rocket2.png);
+    width: 50px;
+    height: 50px;
+}*/
+
+nav a.menu_home:hover img {
+    content: url(/asset/img/nav/menu_planet1+.png);
+    width: 50px;
+    height: 50px;
+}
+
+nav a.menu_profile:hover img {
+    width: 50px;
+    height: 50px;
+}
+
+nav a.menu_hb:hover img {
+    content: url(/asset/img/nav/menu_planet3+.png);
+    width: 50px;
+    height: 50px;
+}
+
+nav a.menu_stage:hover img {
+    content: url(/asset/img/nav/menu_planet4+.png);
+    width: 50px;
+    height: 50px;
+}
+
+nav a.menu_suite:hover img {
+    content: url(/asset/img/nav/menu_planet5+.png);
+    width: 50px;
+    height: 50px;
+}
+
+nav li.menu_active img {
+    content: url(/asset/img/nav/menu_rocket.png);
+    width: 50px;
+    height: 50px;
+}
+
+nav a span {
+    margin-top: 5px;
+}
+
+#logoPx {
+    border-radius: 5px;
+}
