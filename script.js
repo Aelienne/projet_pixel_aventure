@@ -400,7 +400,7 @@ function affichePopup(id) {
   ID_profil_current = id;
   console.log('Popup pour:' + id)
 
-  let chemin = "/asset/img/profil/personnages/";
+  let chemin = "./asset/img/profil/personnages/";
 
   let imageperso = document.getElementById('imageperso');
   console.log(imageperso.src);
@@ -409,7 +409,7 @@ function affichePopup(id) {
   console.log(nomfile);
   imageperso.src = nomfile;
   console.log(imageperso.src);
-  let cheminZodiaque = "/asset/img/profil/horoscope/"
+  let cheminZodiaque = "./asset/img/profil/horoscope/"
 
   let nom = document.getElementById('nom');
   nom.innerText = profil[id].nom;
@@ -436,7 +436,7 @@ function affichePopup(id) {
 
     // Création de l'élément img check
     let imgElement = document.createElement('img');
-    imgElement.src = '/asset/img/profil/images/checked.png';
+    imgElement.src = './asset/img/profil/images/checked.png';
     imgElement.alt = 'OK';
     imgElement.className = 'checkSoftSkills';
 
@@ -470,7 +470,7 @@ function affichePopup(id) {
 
     // Création de l'élément img
     let imgElement = document.createElement('img');
-    imgElement.src = '/asset/img/profil/logo/logo' + profil[id].hardskills[i].toLowerCase() + '.png';
+    imgElement.src = './asset/img/profil/logo/logo' + profil[id].hardskills[i].toLowerCase() + '.png';
     imgElement.alt = profil[id].hardskills[i].charAt(0).toUpperCase();
     imgElement.className = 'imageHardskills'; //profil[id].hardskills[i];
 
